@@ -29,18 +29,6 @@
       "hashSize": 12,
       "entityUsernameField": "email",
       "entityPasswordField": "password"
-    },
-    "oauth": {
-      "redirect": "http://localhost:3030/",
-      "google": {
-        "key": "GOOGLE_OAUTH_KEY",
-        "secret": "GOOGLE_OAUTH_SERECT",
-        "scope": [
-          "email",
-          "profile",
-          "openid"
-        ]
-      }
     }
   },
   "postgres": "postgres://postgres:@localhost:5432/scannar"
